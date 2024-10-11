@@ -10,7 +10,6 @@ import javax.swing.*;
         int contador = 0;
 
         while (contador < quantidadeAlunos) {
-            System.out.print("Digite a nota do aluno " + (contador + 1) + ": ");
             double nota =  Double.parseDouble(JOptionPane.showInputDialog("Digite a nota do aluno " + (contador + 1) + ": "));
             somaNotas += nota;
             contador++;
